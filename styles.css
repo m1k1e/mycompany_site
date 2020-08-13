@@ -1,0 +1,22 @@
+body {
+	font-family: "Open Sans", sans-serif;
+	width: 1440px;
+	
+}
+
+header {
+	width: 100%;
+	background: #000;
+	dosplay: flex;
+}
+
+.header_logo {
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 24px;
+	font-weight: 800;
+	cursor: pointer;
+	padding-top: 54px;
+	padding-left: 15%;
+	margin: 1%;
+}
