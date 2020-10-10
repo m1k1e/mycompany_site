@@ -4,7 +4,7 @@
 }
 
 body {
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
 	
 }
@@ -18,10 +18,14 @@ header {
 .header_logo {
 	text-transform: uppercase;
 	color: #fff;
-	font-size: 24px;
 	cursor: pointer;
 	padding-top: 50px;
 	margin-left: 10%;
+}
+
+.header_logo h1 {
+	font-weight: 700;
+	font-size: 24px;
 }
 
 nav {
@@ -89,6 +93,7 @@ main .main_about {
 
 .about_right {
 	margin-left: 175px;
+	width: 400px;
 }
 
 .about_right h1{
@@ -100,7 +105,7 @@ main .main_about {
 
 .about_right p {
 	margin: 30px 0 50px 0;
-	color: #c6c6c6;
+	color: #999;
 }
 
 .about_right ul {
@@ -155,6 +160,7 @@ p.text_bold {
 
 .card {
 	margin: 0 40px;
+	font-weight: 500;
 }
 
 .photo {
@@ -206,6 +212,11 @@ p.text_bold {
 	padding-bottom: 100px;
 }
 
+.services_cards p {
+	color: #000;
+	font-weight: 500;
+}
+
 .main_clients {
 	background: #000;
 	padding: 100px 0 205px 0;
@@ -216,6 +227,7 @@ p.text_bold {
 .main_clients h1 {
 	margin-bottom: 30px;
 	text-transform: uppercase;
+	font-weight: 300;
 }
 
 .main_clients img {
@@ -225,7 +237,23 @@ p.text_bold {
 
 .main_gallery {
 	background: #fff;
-	padding: 100px;
+	padding: 100px 0 100px 0;
+	text-align: center;
+}
+
+.main_gallery h1{
+	margin-bottom: 30px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.main_gallery p{
+	margin-bottom: 175px;
+	color: #6c6c6c;
+}
+
+.main_gallery img:hover{
+	opacity: 0.9;
 }
 
 
@@ -240,12 +268,20 @@ p.text_bold {
 	margin-top: 100px;
 	margin-bottom: 30px;
 	text-transform: uppercase;
+	font-weight: 300;
 }
 
 
 .main_textimonials div+p {
 	text-transform: uppercase;
 	margin-bottom: 50px;
+	font-weight: 500;
+	font-size: 18px;
+}
+
+.main_textimonials p:nth-of-type(2) {
+	color: #999;
+	font-size: 18px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -381,5 +417,17 @@ p.text_bold {
 	.services_cards {
 	text-align: center;
 	grid-template-columns: auto;
-}
+	}
+
+	.line1 img:not(:first-child) {
+		display: none;
+	}
+
+	.line2 img:not(:first-child) {
+		display: none;
+	}
+
+	.line3 img:not(:first-child) {
+		display: none;
+	}
 }
