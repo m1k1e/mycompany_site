@@ -20,7 +20,7 @@ header {
 	color: #fff;
 	cursor: pointer;
 	padding-top: 50px;
-	margin-left: 10%;
+	margin-left: 16%;
 }
 
 .header_logo h1 {
@@ -29,9 +29,12 @@ header {
 }
 
 nav {
-	margin-top: 54px;
-	margin-left: 25%;
-
+	margin-top: 53px;
+	margin-left: 26.5%;
+	width: 600px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .topnav a{
@@ -39,8 +42,16 @@ nav {
 	color: #fff;
 	text-align: center;
 	padding: 10px 12px;
-	font-size: 12px;
+	font-size: 15px;
 } 
+
+.topnav a:first-child {
+	padding-left: 0;
+}
+
+.topnav a:nth-child(6) {
+	padding-right: 0;
+}
 
 .topnav a:hover {
 	border-bottom: 3px solid #fcac45;
@@ -60,7 +71,7 @@ main {
 main .main_welcome {
 	background: #000;
 	text-align: center;
-	padding: 210px 0 460px 0;
+	padding: 200px 0 420px 0;
 }
 
 main .main_welcome h1 {
@@ -86,21 +97,23 @@ main .main_welcome p {
 	margin: 0 auto;
 }
 
-main .main_about {
+.container_flex {
 	display: flex;
+}
+
+main .main_about {
 	padding: 100px 0 100px 0;
 }
 
 .about_right {
 	margin-left: 175px;
-	width: 400px;
+	width: 500px;
 }
 
 .about_right h1{
-	display: inline-block;
+	font-size: 34px;
 	padding-bottom: 20px;
-	font-weight: 300;
-	border-bottom: 3px solid #fcac45;
+	font-weight: 400;
 }
 
 .about_right p {
@@ -120,7 +133,7 @@ main .main_about {
 }
 
 .mw-100 {
-	max-width: 100%;
+	max-width: 50%;
 }
 
 .text_bold {
