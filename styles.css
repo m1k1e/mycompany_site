@@ -5,7 +5,7 @@
 
 body {
 	font-family: 'Open Sans', sans-serif;
-	font-weight: 300;
+	font-weight: 400;
 	
 }
 
@@ -13,6 +13,7 @@ header {
 	width: 100%;
 	background: #000;
 	display: flex;
+	flex-wrap: wrap;
 }
 
 .header_logo {
@@ -102,23 +103,30 @@ main .main_welcome p {
 }
 
 main .main_about {
-	padding: 100px 0 100px 0;
+	padding: 95px 0 95px 0;
+}
+
+.about_left {
+	padding-left: 65px;
 }
 
 .about_right {
-	margin-left: 175px;
-	width: 500px;
+	margin-left: 165px;
+	width: 420px;
 }
 
 .about_right h1{
 	font-size: 34px;
 	padding-bottom: 20px;
 	font-weight: 400;
+	margin-top: 20px;
+	border-bottom: 3px solid #fcac45;
 }
 
 .about_right p {
-	margin: 30px 0 50px 0;
+	margin: 20px 0 45px 5px;
 	color: #999;
+	font-size: 17px;
 }
 
 .about_right ul {
@@ -127,7 +135,6 @@ main .main_about {
 }
 
 .about_right li {
-	padding-left: 25px;
 	margin-top: 10px;
 	color: #5a5a5a;
 }
@@ -148,14 +155,14 @@ p.text_bold {
 .main_team {
 	background: #000;
 	text-align: center;
-	padding: 100px 0 165px 0;
+	padding: 90px 0 160px 0;
 	color:#fff;
 }
 
 .main_team h1{
 	font-size: 44px;
 	text-transform: uppercase;
-	padding-bottom: 30px;
+	padding-bottom: 12px;
 }
 
 .line {
@@ -164,17 +171,21 @@ p.text_bold {
 	background: #fcac45;
 	position: relative;
 	left: 45.5%;
-	margin-bottom: 85px;
+	margin-bottom: 65px;
 }
 
 .team_cards {
 	display: flex;
+	justify-content: space-around;
+	padding-top: 20px;
 }
 
 .card {
-	margin: 0 40px;
 	font-weight: 500;
+	width: 240px;
 }
+
+
 
 .photo {
 	background: #d7d7d7;
@@ -185,7 +196,7 @@ p.text_bold {
 }
 
 .name {
-	font-size: 20px;
+    font-size: 20px;
 	margin-bottom: 7px;
 }
 
@@ -207,16 +218,17 @@ p.text_bold {
 
 .main_services h1 {
 	text-align: center;
-	padding: 100px 0 30px 0;
+	padding: 80px 0 20px 0;
 	text-transform: uppercase;
-	font-weight: 800;
+	font-size: 44px;
+	font-weight: 600;
 }
 
 .main_services h4 {
 	text-align: center;
 	padding: 30px 0 25px 0;
 	text-transform: uppercase;
-	font-weight: 800;
+	font-weight: 600;
 }
 
 .main_services p {
