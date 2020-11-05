@@ -14,45 +14,45 @@ header {
 	background: #000;
 	display: flex;
 	flex-wrap: wrap;
+	flex-direction: row;
+    justify-content: space-between;
 }
 
 .header_logo {
+	display: flex;
+	flex-direction: row;
 	text-transform: uppercase;
 	color: #fff;
-	cursor: pointer;
+	
 	padding-top: 50px;
-	margin-left: 16%;
-}
-
-.header_logo h1 {
+	margin-left: 11%;
 	font-weight: 700;
 	font-size: 24px;
+
 }
 
-nav {
+header a {
+	text-decoration: none;
+	color: #fff;
+	cursor: pointer;
+}
+
+nav ul {
 	margin-top: 53px;
-	margin-left: 26.5%;
-	width: 600px;
+	padding-right:10%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	flex-direction: row;
+	list-style-type: none;
 }
 
 .topnav a{
-	text-decoration: none;
-	color: #fff;
+	
 	text-align: center;
 	padding: 10px 12px;
 	font-size: 15px;
 } 
 
-.topnav a:first-child {
-	padding-left: 0;
-}
-
-.topnav a:nth-child(6) {
-	padding-right: 0;
-}
 
 .topnav a:hover {
 	border-bottom: 3px solid #fcac45;
