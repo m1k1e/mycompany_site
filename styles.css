@@ -298,6 +298,7 @@ p.text_bold {
 }
 
 
+
 .contact_wrapper {
 	width: 750px;
 	margin: 0 auto;
@@ -306,6 +307,10 @@ p.text_bold {
 
 .red {
 	color: red;
+}
+
+form p {
+	text-align: left;
 }
 
 .form_inputs {
@@ -345,6 +350,7 @@ input[type=submit] {
 	background: #fcac45;
 	color: #fff;
 	margin-right: 0;
+	margin-top: 20px;
 
 }
 
