@@ -31,13 +31,6 @@ header {
 
 }
 
-<<<<<<< HEAD
-header a {
-	text-decoration: none;
-	color: #fff;
-	cursor: pointer;
-}
-=======
 .header_logo h1::after {
 	display: none;
 }
@@ -45,7 +38,6 @@ header a {
 nav {
 	margin-top: 54px;
 	margin-left: 25%;
->>>>>>> development
 
 nav ul {
 	margin-top: 53px;
@@ -189,9 +181,6 @@ p.text_bold {
 	background: #fcac45;
 	position: relative;
 	left: 45.5%;
-<<<<<<< HEAD
-	margin-bottom: 65px;
-=======
 	margin-bottom: 85px;
 }*/
 
@@ -202,7 +191,6 @@ h1:after {
 	width: 100px;
 	padding-top: 30px;
 	border-bottom: 3px solid #fcac45;
->>>>>>> development
 }
 
 .team_cards {
