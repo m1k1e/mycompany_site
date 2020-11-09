@@ -177,28 +177,21 @@
 	</div>
 
 	<div class="main_contacts">
-		<div class="wrapper">
+		<div class="contact_wrapper">
 			<h1>contact us</h1>
 			<div class="line"></div>
 			<p><i>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus ex quidem maiores ullam quis, at asperiores minus ad eaque maxime possimus cum ab iusto assumenda velit excepturi porro ipsa tenetur. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</i></p>
 
-			<form action="#" method="post">
-				<div class="one-half">
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" value="" required/>
-				</div>
-					
-				<div class="one-half">
-					<label for="email">Email addreess</label>
-					<input type="text" name="name" id="name" value="" required/>
+			<form action="#" name="new_form" method="post">
+				<div class="form_inputs">
+					<p>Name<span class="red">*</span><input type="text"></p>
+					<p>Email addreess<span class="red">*</span><input type="text"></p>
 				</div>
 
-				<div class="textarea">
-					<label for="text">Message</label>
-					<textarea type="text" name="name" id="name"  value="" required></textarea>
-				</div>
+					<p>Message<span class="red">*</span></p></p>
+					<textarea type="text" name="text"></textarea>
 					<div class="button">
-						<input type="submit" value="Send" />
+						<input type="submit" value="SEND" />
 					</div>
 					
 			</form>
