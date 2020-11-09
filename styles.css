@@ -28,6 +28,10 @@ header {
 	font-size: 24px;
 }
 
+.header_logo h1::after {
+	display: none;
+}
+
 nav {
 	margin-top: 54px;
 	margin-left: 25%;
@@ -71,6 +75,10 @@ main .main_welcome h1 {
 	font-weight: 300;
 }
 
+main .main_welcome h1::after{
+	display: none;
+}
+
 main .main_welcome p {
 	color:#999;
 	font-size: 20px;
@@ -101,6 +109,10 @@ main .main_about {
 	padding-bottom: 20px;
 	font-weight: 300;
 	border-bottom: 3px solid #fcac45;
+}
+
+.about_right h1::after {
+	display: none;
 }
 
 .about_right p {
@@ -145,13 +157,22 @@ p.text_bold {
 	padding-bottom: 30px;
 }
 
-.line {
+/*.line {
 	width: 100px;
 	height: 3px;
 	background: #fcac45;
 	position: relative;
 	left: 45.5%;
 	margin-bottom: 85px;
+}*/
+
+h1:after {
+	content: "";
+	display: block;
+	margin: 0 auto;
+	width: 100px;
+	padding-top: 30px;
+	border-bottom: 3px solid #fcac45;
 }
 
 .team_cards {
